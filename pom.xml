@@ -9,6 +9,7 @@
     <modules>
         <module>DemoLLM</module>
         <module>DemoLLMSpringBoot</module>
+        <module>DemoLLMSpringBootDeclarative</module>
     </modules>
 
     <properties>
