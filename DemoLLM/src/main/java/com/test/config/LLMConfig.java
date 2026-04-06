@@ -19,7 +19,8 @@ public class LLMConfig {
 
         return OpenAiChatModel.builder()
                 .apiKey(System.getenv("qwenapikey"))// 从环境变量获取apikey
-                .modelName("qwen3-max")// 模型名
+//                .modelName("qwen3-max")// 模型名
+                .modelName("qwen3.6-plus")// 模型名
                 .baseUrl("https://dashscope.aliyuncs.com/compatible-mode/v1")// 调用地址
                 .logRequests(true)// 日志级别设置为debug才有效
                 .logResponses(true)
