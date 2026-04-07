@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    encoding: #大模型对话中文乱码处理
+      charset: UTF-8
+      enabled: true
+      force: true
+spring:
+  application:
+    name: DemoLLMReactor # 微服务名称
+#设置日志级别为 DEBUG，让底层 HTTP 客户端和框架内部日志可见。
+logging:
+  level:
+    dev:
+      langchain4j: debug

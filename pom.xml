@@ -10,6 +10,7 @@
         <module>DemoLLM</module>
         <module>DemoLLMSpringBoot</module>
         <module>DemoLLMSpringBootDeclarative</module>
+        <module>DemoLLMReactor</module>
     </modules>
 
     <properties>
