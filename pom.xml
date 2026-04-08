@@ -11,6 +11,7 @@
         <module>DemoLLMSpringBoot</module>
         <module>DemoLLMSpringBootDeclarative</module>
         <module>DemoLLMReactor</module>
+        <module>DemoLLMMemory</module>
     </modules>
 
     <properties>
